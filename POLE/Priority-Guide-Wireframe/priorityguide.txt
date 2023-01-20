@@ -1,0 +1,96 @@
+
+- page d'intro
+- page de notification (commentaires)
+- page inscription
+    - Pseudo
+    - email
+    - mot de passe
+    - Déjà un utilisateur ? --> Se connecter
+    - email ou mot de passe oublié
+    - bouton s'inscrire
+- page de connection
+    - pseudo ou email
+    - mot de passe
+    - rester connecté
+    - bouton se connecter
+    - nouvel utilisateur ? --> Créer un compte
+- page tutos
+    - filtre difficulté
+    - plusieurs catégories (éventuellement)
+    - section
+        - slider
+        - illustration, image, video, texte
+    - bouton like
+    - bouton bookmark
+- page feed (home d'instagram)
+    - section
+        - Bulle photo de profil
+        - Nom et prénom ou pseudo
+        - le nom de la routine ou du mouvements
+        - image - vidéo (slider)
+        - bouton like
+        - bouton commenter
+        - bouton partager
+        - bouton bookmarker
+        - Aimé par 200 personnes
+        - Voir les _ commentaires
+            - page de commentaire
+            - <-- Commentaires
+            - Bulle photo de profil
+            - Nom et prénom ou pseudo
+            - date du commentaire
+            - bouton liker le commentaire
+            - section
+                - notre photo de profil
+                - commenter en tant que sacha.mnr...
+                - publier
+- page routine
+    - section vos routines
+        - slider horizontal (comme les films)
+            - clicker dessus redirige sur la routine en question
+    - section créer une nouvelle routine
+        - <-- Routines
+        - Champ - nommer la routine
+        - Mouvement 1
+            - bouton choisir un mouvement (ou version déjà complétée pour illustrer, par exemple une 2ième page)
+                - page recherche 1 (comme page commentaire instagram)
+                    - <-- mouvement 1
+                    - champ de recherche (hyperplexed steam - téléphone)
+                    - iltre difficulté (hyperplexed steam - téléphone)
+                    - section bookmark
+                    - section like
+                - page recherche 2 (affiche les résultats de recherche uniquement)
+                    - <-- mouvement 1
+                    - champ de recherche (hyperplexed steam - téléphone)
+                    - résultats
+        - Mouvement 2
+            - ""
+        - label ou radio - publique / privé
+        - bouton partager
+        - bouton enregistrer
+- page profil
+    - <-- profil
+    - settings icon
+        - champ modifier le profil
+            - page modifier le profil
+                - pseudo
+                - email
+                - mot de passe
+        - préférences
+            - Compte privé - bouton toggle
+                - Lorsque cette option est activée, personne ne peut voir ni accèder à ton profil ou tes publications. Tes publications conserveront leurs likes et archivages mais seul toi poura y avoir accès. 
+            - Publication privée - bouton toggle
+                - Lorsque cette option est activée, personne ne peut voir ni accèder à tes publications. Tes publications conserveront leurs likes et archivages mais personne ne sera en mesure d'y accèder.
+            - Like privé - bouton toggle
+                - Lorsque cette option est activée, personne ne pourra voir sur ton profil les publications que tu as liké.
+            - Archivage privé - bouton toggle
+                - Lorsque cette option est activée, personne ne peut voir tes archivages sur ton profil.
+            - Bouton supprimer le compte
+    - bulle photo de profil
+        - bulle avec un + pour modifier
+    - Pseudo
+    - sur une ligne (composant s'adapte par rapport aux préférences - icon avec un oeil caché par exemple - tiktok)
+        - like
+        - bookmark
+        - routines
+
